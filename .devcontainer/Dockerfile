@@ -11,5 +11,6 @@ RUN echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 USER reesilva
 
 # [Optional] Uncomment this section to install additional OS packages.
+RUN rustup component add clippy
 RUN sudo apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && sudo apt-get -y install --no-install-recommends libgtk-4-dev

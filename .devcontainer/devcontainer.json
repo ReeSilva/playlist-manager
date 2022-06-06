@@ -39,8 +39,8 @@
 		"rust-lang.rust-analyzer",
 		"tamasfe.even-better-toml",
 		"serayuzgur.crates",
-		"github.vscode-pull-request-github"
-
+		"github.vscode-pull-request-github",
+		"eamodio.gitlens"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
