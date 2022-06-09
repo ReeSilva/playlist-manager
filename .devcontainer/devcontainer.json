@@ -11,16 +11,9 @@
 		"--security-opt",
 		"seccomp=unconfined"
 	],
-	"remoteEnv": {
-		"DISPLAY": "wayland-0",
-		"WAYLAND_DISPLAY": "wayland-0",
-		"XDG_RUNTIME_DIR": "/tmp"
+	"remoteEnv": {},
 
-	},
-
-	"mounts": [
-		"source=/run/user/1000/wayland-0,target=/tmp/wayland-0,type=bind,consistency=cached"
-	],
+	"mounts": [],
 
 	// Set *default* container specific settings.json values on container create.
 	"settings": {
