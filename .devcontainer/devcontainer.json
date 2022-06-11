@@ -11,9 +11,7 @@
 		"--security-opt",
 		"seccomp=unconfined"
 	],
-	"remoteEnv": {
-		"DISPLAY": "${containerEnv:DISPLAY}"
-	},
+	"remoteEnv": {},
 
 	"mounts": [],
 
